@@ -9,7 +9,6 @@ from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 
 # -------- CONFIG --------
-os.environ["OPENAI_API_KEY"] = "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"
 
 app = FastAPI(title="DocuQuery RAG API")
 
