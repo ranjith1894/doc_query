@@ -90,3 +90,7 @@ def ask_question(data: Question):
 @app.get("/home")
 def home():
     return FileResponse("home.html")
+
+@app.get("/hello")
+def hello():
+    return {"hai": "hello"}
