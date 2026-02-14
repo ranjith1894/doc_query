@@ -87,6 +87,6 @@ def ask_question(data: Question):
 
 
 
-@app.get("/")
+@app.get("/home")
 def home():
-    return FileResponse("index.html")
+    return FileResponse("home.html")
