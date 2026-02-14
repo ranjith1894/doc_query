@@ -10,6 +10,7 @@ from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 
 # -------- CONFIG --------
 
+
 app = FastAPI(title="DocuQuery RAG API")
 
 vectorstore = None
